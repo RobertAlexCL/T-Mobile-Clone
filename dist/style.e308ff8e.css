@@ -1,0 +1,365 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.row {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/* small navbar  */
+.smallNav {
+	background-color: #f6f6f6;
+}
+.smallNav li {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.2;
+	letter-spacing: 0.9px;
+	font-weight: 800;
+	color: #6a6a6a;
+}
+.smallNav li:hover {
+	color: red;
+	cursor: pointer;
+}
+.brand-logo {
+	cursor: pointer;
+}
+
+/* navbar main  */
+.dropdown-menu {
+	font-size: 1.1rem;
+}
+.dropdown-menu li a {
+	font-weight: 500;
+}
+.dropdown-menu li a:hover {
+	color: #e20074;
+	background-color: #fff;
+	cursor: pointer;
+}
+.nav-link:hover {
+	color: #e20074 !important;
+}
+.nav-item {
+	margin-left: 25px;
+}
+.nav-link {
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #000 !important;
+	background-color: #fff;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.myBtn {
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #e20074;
+	border-radius: 0 !important;
+}
+.myBtn:hover {
+	color: #fff;
+	background-color: #dd3089;
+}
+
+.alertShipping {
+	font-weight: 500;
+	font-size: 20px;
+	overflow: hidden;
+	line-height: 24px;
+	padding: 22px 0;
+	background-color: #e20074;
+	color: #fff;
+	margin-bottom: 0;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+/* high speed internet section  */
+.high-speed-internet {
+	background-image: url(/HighspeedInternet.07d41cd3.png);
+	background-size: cover;
+	background-position: center center;
+	padding: 200px 0;
+}
+.high-para {
+	color: #fff;
+	font-size: 56px;
+	letter-spacing: -1.1px;
+	line-height: 1;
+	text-align: center !important;
+	padding: 0 55px;
+	margin-bottom: 40px;
+}
+.high-link-btn {
+	color: #e20074;
+}
+.high-link-btn a {
+	margin: 20px;
+	font-size: 18px;
+	letter-spacing: normal;
+	line-height: 1.5;
+	font-weight: 500;
+}
+.high-link-btn a:hover {
+	cursor: pointer;
+}
+
+/* magenta MAX  */
+.magenta-max {
+	background-image: url(/MagentaMax.8f97bb5d.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	margin: 10px 0;
+	color: #fff;
+}
+.magenta-max h1 {
+	font-size: 45px;
+	letter-spacing: -1.1px;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+.magenta-max h2 {
+	font-size: 56px;
+	letter-spacing: -1.1px;
+	line-height: 1;
+	margin-bottom: 13px;
+}
+.magenta-para1 {
+	font-size: 18px;
+	padding: 0 100px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.checkoutBtn {
+	font-size: 18px;
+	letter-spacing: normal;
+	line-height: 1.5;
+	position: relative;
+	text-decoration: underline;
+	transition: opacity 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+		background-color 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+		color 0.2s cubic-bezier(0.35, 0, 0.25, 1);
+	font-weight: 700;
+	padding: 12px 0;
+	text-decoration: none;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+.checkoutBtn:hover {
+	color: #fff;
+	opacity: 0.7;
+}
+.magenta-para2 {
+	margin-top: 30px;
+}
+
+.magenta-para2 p {
+	font-size: 10px;
+	letter-spacing: 0;
+	line-height: 12px;
+}
+
+/* phone boxes  */
+.phoneBox {
+	background-color: #e20074;
+	color: #fff;
+	text-align: center;
+	padding: 80px 20px;
+}
+.phoneBox-title {
+	font-size: 32px;
+	letter-spacing: 0;
+	line-height: 36px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.phoneBox-para {
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.smallPara {
+	font-size: 10px !important;
+	letter-spacing: 0 !important;
+	line-height: 12px !important;
+	margin-top: 30px !important;
+}
+
+/* winner page  */
+.winnerPage {
+	background-color: #000;
+	margin: 20px 0 !important;
+	color: #fff;
+}
+.winnerImg {
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+.winnerPageA {
+	line-height: 1.9rem;
+	margin-top: 185px;
+}
+.winnerPageA h2 {
+	color: #fff;
+	margin-bottom: 5px;
+	font-size: 72px;
+	letter-spacing: -1.45px;
+	line-height: 1;
+	font-weight: 600;
+}
+.winnerPageA p {
+	margin-bottom: 50px;
+	margin-top: 25px;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+.leader-smallPara {
+	margin-top: 40px !important;
+	padding-right: 45px;
+}
+.shopNowBtn {
+	color: #e20074 !important;
+}
+.iphone12A h2 {
+	font-size: 40px;
+	letter-spacing: -0.22px;
+	line-height: 44px;
+	color: #262626;
+	padding: 20px 100px;
+	font-weight: 700;
+	margin-top: 60px;
+}
+.iphone12APara {
+	padding: 0 100px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.iphoneImg {
+	width: 60%;
+}
+.iphone12B {
+	background-image: url(/iphone12B.659f7e97.jpg);
+	background-position: center center;
+	height: 100%;
+	color: #fff;
+	padding-top: 80px;
+}
+.iphone12B h2 {
+	font-size: 40px;
+	letter-spacing: -0.22px;
+	line-height: 44px;
+}
+.iphone12B-para {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 24px;
+	font-weight: 400;
+	padding: 0 40px;
+}
+.highspeed-checkoutBtn {
+	color: #e20074 !important;
+}
+
+/* phone list  */
+.phoneList {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.phoneList-title {
+	color: #000;
+	background: #fff;
+	text-align: left;
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+/* phonelist Box  */
+.PhoneListBoxA {
+	background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-size: 54% !important;
+	margin-top: 50px;
+}
+.row_images {
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.card {
+	width: 420px;
+	height: 600px;
+	padding: 40px 80px !important;
+	margin: 10px 20px !important;
+	transition: opacity 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+		background-color 0.2s cubic-bezier(0.35, 0, 0.25, 1),
+		color 0.2s cubic-bezier(0.35, 0, 0.25, 1);
+	text-align: center;
+	border: none;
+	background-color: #fff;
+}
+.card:hover {
+	box-shadow: 0 0.5rem 1rem rgba(224, 134, 209, 0.863) !important;
+}
+.card-img-top {
+	width: 100%;
+}
+.card h2 {
+	font-size: 26px !important;
+	letter-spacing: normal;
+	line-height: 1.5;
+	font-weight: 700;
+}
+.card h5 {
+	font-size: 18px !important;
+	letter-spacing: normal;
+	line-height: 1.5;
+	font-weight: 700;
+	color: rgb(105, 104, 104);
+	font-weight: 700;
+}
+/* footer  */
+
+.footer_main {
+	margin-top: 40px;
+}
+.footer {
+	background-color: #333;
+	color: #fff;
+}
+.social-media {
+	margin: 10px 40px;
+}
+.social-media i {
+	font-size: 24px;
+	color: white;
+}
+
+.smallFooter {
+	background-color: #333;
+	color: #fff;
+}
+
+.footerLine p:hover {
+	cursor: pointer;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
